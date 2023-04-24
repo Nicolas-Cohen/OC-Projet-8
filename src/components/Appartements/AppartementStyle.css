@@ -1,0 +1,31 @@
+.Section-Appartements {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    gap: 60px;
+    margin-bottom: 60px;
+    background-color: #F6F6F6;
+    border-radius: 25px;
+    padding: 56px 50px 56px 50px;
+}
+
+.Card-Appartement {
+    position: relative;
+}
+
+.Card-title {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    font-size: 18px;
+    color: #FFFFFF;
+    width: 70%;
+    display: flex;
+    text-align: start;
+}
+
+.Card-image {
+    height: 340px;
+    width: 340px;
+    border-radius: 10px;
+}

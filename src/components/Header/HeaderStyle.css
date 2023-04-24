@@ -1,0 +1,20 @@
+.Banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Navigation-Banner {
+    display: flex;
+    gap: 57px;
+}
+
+.active-link {
+    text-decoration: underline;
+    color: #FF6060;
+}
+
+.link-not-active {
+    color: #FF6060;
+    text-decoration: none;
+}

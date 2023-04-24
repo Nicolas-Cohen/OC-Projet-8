@@ -1,0 +1,22 @@
+.ErrorPage {
+    margin-bottom: 160px;
+    color: #FF6060;
+}
+.TitleError{
+    font-weight: 700;
+    font-size: 250px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding: 0;
+}
+
+.text-error {
+    font-size: 36px;
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
+
+.ComeBack-Home-Error {
+    font-size: 18px;
+    color: #FF6060;
+}
