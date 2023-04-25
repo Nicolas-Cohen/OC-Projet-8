@@ -1,13 +1,13 @@
 import React from 'react'
-import Image from '../../components/Image-About/image-about'
-import './AboutStyle.css'
+import Banner from '../../components/Banner/Banner'
 import Collapsible from '../../components/Collabse/Collabse-About'
+import './AboutStyle.css'
 
 
 export default function About() {
     return (
         <div>
-            <Image />
+            <Banner />
             <div className='AboutStyle'>
             <Collapsible title="Fiabilité" description="Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées  par nos équipes." />
             <Collapsible title="Respect" description="La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme." />

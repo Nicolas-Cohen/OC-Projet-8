@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from '../../assets/photo-home.png'
+import Banner from '../../components/Banner/Banner'
 import Appartement from '../../components/Appartements/Appartements'
 
 
@@ -8,7 +8,7 @@ function Home() {
     return (
         
       <div>
-        <Image />
+        <Banner />
         <Appartement />
         </div>
     );

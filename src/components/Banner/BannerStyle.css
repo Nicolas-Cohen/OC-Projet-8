@@ -1,9 +1,9 @@
-.BannerHome {
+.banner {
     margin-top: 60px;
     position: relative;
 }
 
-.ImageHome {
+.banner-image {
     border-radius: 25px;
     height: 220px;
     width: 100%;
