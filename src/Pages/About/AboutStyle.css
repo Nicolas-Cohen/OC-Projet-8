@@ -1,7 +1,26 @@
 .AboutStyle {
+    margin-top: 30px;
     margin-bottom: 46px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
-.collabsible-about {
-    margin-top: 20px;
+/* Le code ci-dessous correspond à la version responsive uniquement */
+
+/* Medium devices (tablets, less/equal than 1024px) */
+@media screen and (max-width: 1024px) {
+    .AboutStyle {
+        margin-top: 25px;
+        gap: 25px;
+    }
+}
+
+/* Small devices (phones, less than 768px) */
+@media screen and (max-width: 767px) {
+    .AboutStyle {
+        margin-top: 20px;
+        margin-bottom: 140px;
+        gap: 20px;
+    }      
 }

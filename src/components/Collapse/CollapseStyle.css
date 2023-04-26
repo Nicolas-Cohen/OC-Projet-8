@@ -1,0 +1,62 @@
+.collapsible-container {
+    text-align: start;
+    font-size: 24px;
+    margin-top: 0px;
+}
+
+.collapsible-button {
+    width: 100%;  
+    background: #FF6060;
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+    padding: 7px 20px 7px 13px;
+}
+
+.collapsible-description {
+    background: #F7F7F7;
+    border-radius: 5px;
+    color: #FF6060;
+    font-weight: 200;
+    padding: 20px 13px 13px 13px;
+}
+
+/* Le code ci-dessous correspond à la version responsive uniquement */
+
+/* Medium devices (tablets, less/equal than 1024px) */
+@media screen and (max-width: 1024px) {
+    .collapsible-button {
+        font-size: 18px;
+    }    
+
+    .collapsible-description {
+        font-size: 18px;
+        padding: 16px 10px 23px 10px;
+    }
+
+    .Arrow {
+        width: 18px;
+    }
+}
+
+/* Small devices (phones, less than 768px) */
+@media screen and (max-width: 767px) {
+    .collapsible-button {
+        font-size: 13px;
+        padding: 5px 0px 5px 10px;
+    }    
+
+    .collapsible-description {
+        font-size: 12px;
+        padding: 13px 8px 30px 8px;
+    }
+
+    .Arrow {
+        width: 13px;
+        padding-right: 10px;
+    }
+}

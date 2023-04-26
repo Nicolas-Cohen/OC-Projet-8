@@ -1,18 +1,27 @@
 import React, { useState } from 'react';
 import DownArrow from '../../assets/down-arrow.png'
 import UpArrow from '../../assets/up-arrow.png'
-import './CollabseStyle.css'
+import './CollapseStyle.css'
 
-
-function Collapsible({ title, description }) {
+function Collapsible({ title, description, page }) {
   const [isCollapsed, setIsCollapsed] = useState(true);
 
   const toggleCollapsible = () => {
     setIsCollapsed(!isCollapsed);
   };
 
+  const getCollapsibleStyle = () => {
+    if (page === 'about') {
+      return 'about-collapsible-style';
+    } else if (page === 'accomodation') {
+      return 'accomodation-collapsible-style';
+    } else {
+      return '';
+    }
+  };
+
   return (
-    <div className="collapsible-container">
+    <div className={`collapsible-container ${getCollapsibleStyle()}`}>
       <button className="collapsible-button" onClick={toggleCollapsible}>
         {title}
         <img src={isCollapsed ? DownArrow : UpArrow} alt='Flèche' className={`Arrow ${isCollapsed ? 'down' : 'up'}`}/>
@@ -23,4 +32,3 @@ function Collapsible({ title, description }) {
 }
 
 export default Collapsible;
-
