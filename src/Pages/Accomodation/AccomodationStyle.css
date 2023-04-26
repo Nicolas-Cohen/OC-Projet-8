@@ -1,0 +1,47 @@
+.presentation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.collabsibles {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.collabsible {
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+}
+
+.host {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+/* Le code ci-dessous correspond à la version responsive uniquement */
+
+/* Medium devices (tablets, less/equal than 1024px) */
+@media screen and (max-width: 1024px) {
+    .presentation {
+        flex-direction: column;
+    }    
+
+    .collabsibles {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .host {
+        align-items: center;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }    
+}
+
+/* Small devices (phones, less than 768px) */
+@media screen and (max-width: 767px) {
+}

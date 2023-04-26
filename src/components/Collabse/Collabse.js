@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import DownArrow from '../../assets/down-arrow.png'
 import UpArrow from '../../assets/up-arrow.png'
-import './Collabse-About-Style.css'
+import './CollabseStyle.css'
 
 
 function Collapsible({ title, description }) {

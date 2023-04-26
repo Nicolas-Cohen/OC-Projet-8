@@ -8,3 +8,25 @@
 .App-HeaderAndMain {
   margin: 40px 100px 0px 100px;
 }
+
+
+/* Le code ci-dessous correspond à la version responsive uniquement */
+
+/****** Media queries ***********/
+/* Medium devices (tablets, less/equal than 1024px) */
+@media screen and (max-width: 1024px) {
+
+  .App-HeaderAndMain {
+    margin: 30px 50px 0px 50px;
+  }
+
+}
+
+/* Small devices (phones, less than 768px) */
+@media screen and (max-width: 767px) {
+
+  .App-HeaderAndMain {
+    margin: 20px 20px 0px 20px;
+  }
+      
+}

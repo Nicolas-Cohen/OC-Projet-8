@@ -1,4 +1,4 @@
-.Banner {
+.Header-Kasa {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,4 +17,30 @@
 .link-not-active {
     color: #FF6060;
     text-decoration: none;
+}
+
+
+/* Le code ci-dessous correspond à la version responsive uniquement */
+
+/* Medium devices (tablets, less/equal than 1024px) */
+@media screen and (max-width: 1024px) {
+    .Logo-Kasa-Header {
+        width: 178px;
+    }
+
+    .Navigation-Banner {
+        font-size: 16px;
+    }
+}
+
+/* Small devices (phones, less than 768px) */
+@media screen and (max-width: 767px) {
+    .Logo-Kasa-Header {
+        width: 145px;
+    }
+
+    .Navigation-Banner {
+        font-size: 12px;
+        gap: 30px;
+    }
 }

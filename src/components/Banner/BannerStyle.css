@@ -1,6 +1,7 @@
 .banner {
     margin-top: 60px;
     position: relative;
+    align-items: center;
 }
 
 .banner-image {
@@ -20,4 +21,43 @@
     bottom: 0;
     left: 0;
     right: 0;
+
+}
+
+/* Le code ci-dessous correspond à la version responsive uniquement */
+
+/* Medium devices (tablets, less/equal than 1024px) */
+@media screen and (max-width: 1024px) {
+    .banner {
+        margin-top: 38px;
+    }
+
+    .banner-image {
+        height: 165px;
+    }
+    
+    .text-ImageHome {
+        font-size: 36px;
+        top: 30px;
+    }
+}
+
+/* Small devices (phones, less than 768px) */
+@media screen and (max-width: 767px) {
+    .banner {
+        margin-top: 16px;
+    }
+
+    .banner-image {
+        height: 110px;
+    }
+    
+    .text-ImageHome {
+        font-size: 24px;
+        text-align: start;
+        left: 20px;
+        top: 5px;
+        bottom: 0;   
+        width: 65%; 
+    } 
 }

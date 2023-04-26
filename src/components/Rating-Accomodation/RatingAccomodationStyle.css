@@ -1,27 +1,23 @@
-.Banner-bottom {
-    padding-top: 60px;
-    padding-bottom: 20px;
-    background-color: black;
-}
-
-.text-footer {
-    color: white;
+.rating-container {
+    margin-top: 17px;
+    display: flex;
+    gap: 15px;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /* Medium devices (tablets, less/equal than 1024px) */
 @media screen and (max-width: 1024px) {
-
-    .text-footer {
-        font-size: 16px;
+    .rating-container {
+        gap: 10px;
+        height: 18px;
     }    
 }
 
 /* Small devices (phones, less than 768px) */
 @media screen and (max-width: 767px) {
-
-    .text-footer {
-        font-size: 12px;
+    .rating-container {
+        gap: 5px;
+        height: 13px;
     }    
 }

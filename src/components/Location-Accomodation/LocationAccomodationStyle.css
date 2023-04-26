@@ -1,27 +1,27 @@
-.Banner-bottom {
-    padding-top: 60px;
-    padding-bottom: 20px;
-    background-color: black;
-}
-
-.text-footer {
-    color: white;
+.location {
+    margin-top: 0px;
+    display: flex;
+    font-size: 18px;
+    color: #FF6060;
+    margin-bottom: 10px;
+    text-align: start;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /* Medium devices (tablets, less/equal than 1024px) */
 @media screen and (max-width: 1024px) {
-
-    .text-footer {
+    .location {
         font-size: 16px;
+        margin-bottom: 5px;
     }    
 }
 
 /* Small devices (phones, less than 768px) */
 @media screen and (max-width: 767px) {
-
-    .text-footer {
-        font-size: 12px;
+    .location {
+        margin-top: 3px;
+        font-size: 14px;
+        margin-bottom: 0px;
     }    
 }

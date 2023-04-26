@@ -6,8 +6,8 @@ import './HeaderStyle.css'
 export default function Header() {
     const location = useLocation();
     return (
-        <div className='Banner'>
-            <img src={LogoHeader} alt='Kasa'/>
+        <div className='Header-Kasa'>
+            <img className='Logo-Kasa-Header' src={LogoHeader} alt='Kasa'/>
         <nav className='Navigation-Banner'>
             <Link to="/" className={location.pathname === '/' ? 'active-link' : 'link-not-active'}>Accueil</Link>
             <Link to="/about" className={location.pathname === '/about' ? 'active-link' : 'link-not-active'}>A Propos</Link>

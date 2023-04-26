@@ -1,0 +1,27 @@
+.title {
+    display: flex;
+    font-size: 36px;
+    color: #FF6060;
+    font-weight: 500;
+    margin-top: 35px;
+    margin-bottom: 0px;
+    text-align: start;
+}
+
+/* Le code ci-dessous correspond à la version responsive uniquement */
+
+/* Medium devices (tablets, less/equal than 1024px) */
+@media screen and (max-width: 1024px) {
+    .title {
+        font-size: 27px;
+        margin-top: 25px;
+    }    
+}
+
+/* Small devices (phones, less than 768px) */
+@media screen and (max-width: 767px) {
+    .title {
+        font-size: 18px;
+        margin-top: 15px;
+    }    
+}

@@ -1,0 +1,38 @@
+.tags {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.tag {
+    display: flex;
+    background: #FF6060;
+    border-radius: 10px;
+    color: white;
+    padding: 3px 30px 3px 30px;
+    font-size: 14px;
+    margin-bottom: 0px;
+    align-items: center;
+}
+
+/* Le code ci-dessous correspond à la version responsive uniquement */
+
+/* Medium devices (tablets, less/equal than 1024px) */
+@media screen and (max-width: 1024px) {
+    .tags {
+        margin-bottom: 0px;
+    }
+    
+    .tag {
+        padding: 3px 25px 3px 25px;
+        font-size: 12px;
+    }    
+}
+
+/* Small devices (phones, less than 768px) */
+@media screen and (max-width: 767px) {
+    .tag {
+        padding: 3px 20px 3px 20px;
+        font-size: 10px;
+    }    
+}

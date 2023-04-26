@@ -1,6 +1,7 @@
 .Section-Appartements {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     margin-top: 40px;
     gap: 60px;
     margin-bottom: 60px;
@@ -28,4 +29,38 @@
     height: 340px;
     width: 340px;
     border-radius: 10px;
+}
+
+/* Le code ci-dessous correspond à la version responsive uniquement */
+
+/* Medium devices (tablets, less/equal than 1024px) */
+@media screen and (max-width: 1024px) {
+    .Section-Appartements {
+        margin-top: 30px;
+        gap: 40px;
+        margin-bottom: 30px;
+        padding: 27px 25px 27px 25px;
+
+    }
+    
+    .Card-image {
+        height: 300px;
+        width: 300px;
+    }
+}
+
+/* Small devices (phones, less than 768px) */
+@media screen and (max-width: 767px) {
+    .Section-Appartements {
+        margin-top: 20px;
+        gap: 20px;
+        margin-bottom: 20px;
+        background-color: transparent;
+        padding: 0;
+    }
+    
+    .Card-image {
+        height: 255px;
+        width: 335px;
+    }  
 }

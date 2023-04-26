@@ -32,3 +32,43 @@
     left: 0;
     right: 0;
 }
+
+/* Le code ci-dessous correspond à la version responsive uniquement */
+
+/* Medium devices (tablets, less/equal than 1024px) */
+@media screen and (max-width: 1024px) {
+    .image-carrousel {
+        height: 335px;
+    }
+
+    .Arrow-left {
+        height: 40px;
+    }
+
+    .Arrow-right {
+        height: 40px;
+    }
+
+    .position {
+        font-size: 15px;
+    }            
+}
+
+/* Small devices (phones, less than 768px) */
+@media screen and (max-width: 767px) {
+    .image-carrousel {
+        height: 255px;
+    }
+
+    .Arrow-left {
+        height: 20px;
+    }
+
+    .Arrow-right {
+        height: 20px;
+    }
+
+    .position {
+        font-size: 10px;
+    }            
+}

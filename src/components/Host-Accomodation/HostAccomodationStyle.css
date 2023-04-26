@@ -1,0 +1,51 @@
+.host-profil {
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.name {
+    color: #FF6060;
+    font-size: 18px;
+    width: 40%;
+    text-align: end;
+    padding-right: 10px;
+}
+
+.photo {
+    border-radius: 50%;
+    width: 70px;
+}
+
+/* Le code ci-dessous correspond à la version responsive uniquement */
+
+/* Medium devices (tablets, less/equal than 1024px) */
+@media screen and (max-width: 1024px) {
+    .host-profil {
+        margin-top: 20px;
+    }    
+
+    .name {
+        font-size: 15px;
+    }
+
+    .photo {
+        width: 55px;
+    }    
+}
+
+/* Small devices (phones, less than 768px) */
+@media screen and (max-width: 767px) {
+    .host-profil {
+        margin-top: 16px;
+    }    
+
+    .name {
+        font-size: 12px;
+    }
+
+    .photo {
+        width: 40px;
+    }    
+}
