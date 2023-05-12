@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useLayoutEffect } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import './AccomodationStyle.css';
 
@@ -44,7 +44,7 @@ function Accomodation() {
           </div>
           <div className='collapsibles'>
             <Collapsible title='Description' description={accomodation[0].description} page="accomodation"/>
-            <Collapsible title='Équipements' description={accomodation[0].equipments} page="accomodation"/>
+            <Collapsible title='Équipements' description={<ul class="list-equipments">{accomodation[0].equipments.map(item => <li>{item}</li>)}</ul>} page="accomodation"/>
           </div>
         </>
       )}

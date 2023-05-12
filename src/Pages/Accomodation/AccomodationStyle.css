@@ -14,16 +14,16 @@
     margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
+    gap: 50px;
 }
 
-.collapsible-container .accomodation-collapsible-style {
+.list-equipments {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-.accomodation-collapsible-style .collapsible-button {
-}
 
-.accomodation-collapsible-style .collapsible-description {
-}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
