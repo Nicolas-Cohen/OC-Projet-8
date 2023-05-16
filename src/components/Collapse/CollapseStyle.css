@@ -6,6 +6,7 @@
 }
 
 .collapsible-button {
+    cursor: pointer;
     width: 100%;  
     background: #FF6060;
     border-radius: 5px;

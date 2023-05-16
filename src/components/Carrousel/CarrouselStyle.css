@@ -15,6 +15,7 @@
     top: 50%;
     transform: translateY(-50%);
     left: 20px;
+    cursor: pointer;
 }
 
 .Arrow-right {
@@ -22,6 +23,7 @@
     top: 50%;
     transform: translateY(-50%);
     right: 20px;
+    cursor: pointer;
 }
 
 .position {

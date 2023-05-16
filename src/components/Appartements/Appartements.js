@@ -9,7 +9,7 @@ function Appartement() {
       {data.map((appartement) => (
         <Link to={`./accomodation/${appartement.id}`} key={appartement.title}>
           <div className='Card-Appartement'>
-            <h1 className='Card-title'>{appartement.title}</h1>
+            <h2 className='Card-title'>{appartement.title}</h2>
             <img className='Card-image' src={appartement.cover} alt={appartement.title}/>
           </div>
         </Link>

@@ -15,11 +15,11 @@ import data from '../../components/fichierP8.json';
 function Accomodation() {
   const { id } = useParams();
   const navigate = useNavigate();
-  const [accomodation, setAccomodation] = useState([]);
+  const [accomodation, setAccomodation] = useState(null);
 
   useEffect(() => {
-    const filteredData = data.filter(element => element.id === id);
-    if (filteredData.length === 0) {
+    const filteredData = data.find(element => element.id === id);
+    if (!filteredData) {
       navigate('/Error');
     } else {
       setAccomodation(filteredData);
@@ -28,23 +28,23 @@ function Accomodation() {
 
   return (
     <div>
-      {accomodation.length > 0 && (
+      {accomodation && (
         <>
-          <Carrousel pictures={accomodation[0].pictures} />
+          <Carrousel pictures={accomodation.pictures} />
           <div className='presentation'>
             <div>
-              <TitleAccomodation title={accomodation[0].title} />
-              <LocationAccomodation location={accomodation[0].location} />
-              <TagsAccomodation tags={accomodation[0].tags} />
+              <TitleAccomodation title={accomodation.title} />
+              <LocationAccomodation location={accomodation.location} />
+              <TagsAccomodation tags={accomodation.tags} />
             </div>
             <div className='host'>
-              <HostAccomodation host={accomodation[0].host} />
-              <RatingAccomodation rating={accomodation[0].rating} />
+              <HostAccomodation host={accomodation.host} />
+              <RatingAccomodation rating={accomodation.rating} />
             </div>
           </div>
           <div className='collapsibles'>
-            <Collapsible title='Description' description={accomodation[0].description} page="accomodation"/>
-            <Collapsible title='Équipements' description={<ul class="list-equipments">{accomodation[0].equipments.map(item => <li>{item}</li>)}</ul>} page="accomodation"/>
+            <Collapsible title='Description' description={accomodation.description} page="accomodation"/>
+            <Collapsible title='Équipements' description={<ul class="list-equipments">{accomodation.equipments.map(item => <li>{item}</li>)}</ul>} page="accomodation"/>
           </div>
         </>
       )}

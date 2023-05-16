@@ -11,20 +11,16 @@ function Collapsible({ title, description, page }) {
   };
 
   const getCollapsibleStyle = () => {
-    if (page === 'about') {
-      return 'about-collapsible-style';
-    } else if (page === 'accomodation') {
-      return 'accomodation-collapsible-style';
-    } else {
-      return '';
-    }
+    if (page === 'about') return 'about-collapsible-style';
+    if (page === 'accomodation') return 'accomodation-collapsible-style';
+    return '';
   };
 
   return (
     <div className={`collapsible-container ${getCollapsibleStyle()}`}>
       <button className="collapsible-button" onClick={toggleCollapsible}>
         {title}
-        <img src={isCollapsed ? DownArrow : UpArrow} alt='Flèche' className={`Arrow ${isCollapsed ? 'down' : 'up'}`}/>
+        <img src={isCollapsed ? DownArrow : UpArrow} alt='Flèche' className={`Arrow ${isCollapsed ? 'down' : 'up'}`} />
       </button>
       {!isCollapsed && <div className="collapsible-description">{description}</div>}
     </div>

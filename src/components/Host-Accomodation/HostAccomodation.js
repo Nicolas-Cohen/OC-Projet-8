@@ -1,8 +1,6 @@
-import { useState } from "react";
 import './HostAccomodationStyle.css'
 
 function HostAccomodation({ host }) {
-    useState(0);
 
     return (
         <div className="host-profil">

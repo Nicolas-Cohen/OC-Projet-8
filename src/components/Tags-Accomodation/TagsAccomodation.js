@@ -1,9 +1,7 @@
-import { useState } from "react";
 import './TagsAccomodationStyle.css'
 
 
 function TagsAccomodation({ tags }) {
-  useState(0);
   
   return (
     <div className="tags">
