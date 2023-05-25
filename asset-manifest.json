@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/Nicolas-Cohen/OC-Projet-8.git/static/css/main.073c9b0a.css",
-    "main.js": "/Nicolas-Cohen/OC-Projet-8.git/static/js/main.fa466c5e.js",
+    "main.css": "/Nicolas-Cohen/OC-Projet-8.git/static/css/main.c0fdcde2.css",
+    "main.js": "/Nicolas-Cohen/OC-Projet-8.git/static/js/main.bd3327e8.js",
     "static/js/787.28cb0dcd.chunk.js": "/Nicolas-Cohen/OC-Projet-8.git/static/js/787.28cb0dcd.chunk.js",
-    "static/media/logo.svg": "/Nicolas-Cohen/OC-Projet-8.git/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/photo-about.png": "/Nicolas-Cohen/OC-Projet-8.git/static/media/photo-about.6c79766be217203aa351.png",
+    "static/media/photo-home.png": "/Nicolas-Cohen/OC-Projet-8.git/static/media/photo-home.e76961bbfb39d9c6c040.png",
+    "static/media/logo-header.svg": "/Nicolas-Cohen/OC-Projet-8.git/static/media/logo-header.a6101328193bb3191cbcb50c120ec0d1.svg",
+    "static/media/logo-footer.svg": "/Nicolas-Cohen/OC-Projet-8.git/static/media/logo-footer.ee689fd9409d1b5a898b4247819d8a00.svg",
     "index.html": "/Nicolas-Cohen/OC-Projet-8.git/index.html",
-    "main.073c9b0a.css.map": "/Nicolas-Cohen/OC-Projet-8.git/static/css/main.073c9b0a.css.map",
-    "main.fa466c5e.js.map": "/Nicolas-Cohen/OC-Projet-8.git/static/js/main.fa466c5e.js.map",
+    "main.c0fdcde2.css.map": "/Nicolas-Cohen/OC-Projet-8.git/static/css/main.c0fdcde2.css.map",
+    "main.bd3327e8.js.map": "/Nicolas-Cohen/OC-Projet-8.git/static/js/main.bd3327e8.js.map",
     "787.28cb0dcd.chunk.js.map": "/Nicolas-Cohen/OC-Projet-8.git/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.fa466c5e.js"
+    "static/css/main.c0fdcde2.css",
+    "static/js/main.bd3327e8.js"
   ]
 }
